@@ -1,0 +1,14 @@
+agent_name = "quickstart"
+image = "mubaky123/pipecat-start-1:0.1"
+image_credentials = "docker-hub-secret"
+secret_set = "quickstart-secrets"
+agent_profile = "agent-1x"
+enable_krisp = false
+enable_managed_keys = false
+
+[krisp_viva]
+audio_filter = "tel"
+
+[scaling]
+	min_agents = 1
+	max_agents = 1
